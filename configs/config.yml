@@ -1,11 +1,10 @@
-server_port: "8000"
-
-db:
-  POSTGRES_DATABASE=vdi_db
-  POSTGRES_HOST=10.10.18.153
-  POSTGRES_PORT=5432
-  POSTGRES_USER=postgres
-ldap:
-  LDAP_HOST=ldap://10.10.18.144
-  LDAP_BASE_DN=ou=vdi,dc=vdi,dc=local
-  LDAP_USER=tu1@vdi.local
+SERVER_PORT: "8000"
+DATABASE_NAME: "vdi_db"
+DATABASE_HOST: "10.10.18.153"
+DATABASE_PORT: "5432"
+DATABASE_USER: "postgres"
+DATABASE_PASSWORD: "jj4p0o3x!"
+LDAP_HOST: "ldap://10.10.18.144"
+LDAP_BASE_DN: "ou=vdi,dc=vdi,dc=local"
+LDAP_USER: "tu1@vdi.local"
+LDAP_PASSWORD: "Qwer1234"
