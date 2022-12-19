@@ -1,4 +1,4 @@
 # x2gobroker app
-Rewriten x2gobrocker app on golang
+Port x2gobrocker app from python on golang programming lang
 
 repository in developer progress
